@@ -61,6 +61,7 @@ if(!fs.existsSync(options.main)) {
     mainFile = clean_array(mainFile);
     let currentFile = options.current;
     currentFile = fs.readFileSync(currentFile, "utf8").split(options.seperatorMain)
+    currentFile = clean_array(currentFile);
 
     currentFile.forEach((k, v) => {
         remove_array_value(mainFile, k);
