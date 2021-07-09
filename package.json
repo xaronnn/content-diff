@@ -1,0 +1,27 @@
+{
+  "name": "content-diff",
+  "version": "1.0.0",
+  "description": "Extract different contents to destination file.",
+  "main": "app.js",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaronnn/content-diff.git"
+  },
+  "keywords": [
+    "XARON"
+  ],
+  "author": "XARON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaronnn/content-diff/issues"
+  },
+  "homepage": "https://github.com/xaronnn/content-diff#readme"
+}
