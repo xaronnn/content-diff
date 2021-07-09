@@ -1,7 +1,7 @@
 # Content Diff Extractor
 A content diff extractor on NodeJS CLI.
 
-# Build & Run
+# Run
 
 -   Clone repo
 -   Run `yarn` or `npm i`
